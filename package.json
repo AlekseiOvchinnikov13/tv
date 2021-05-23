@@ -6,9 +6,16 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "classnames": "^2.3.1",
+    "mobx": "^6.3.1",
+    "mobx-react": "^7.2.0",
+    "prop-types": "^15.7.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "sass": "^1.32.13",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
@@ -32,7 +39,13 @@
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
-      "last 1 safari version"
+      "last 1 safari version",
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.14.2"
   }
 }
