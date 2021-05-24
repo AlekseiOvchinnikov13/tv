@@ -2,7 +2,6 @@ import React, {useEffect, useState} from "react";
 import {inject, observer} from "mobx-react";
 import {toJS} from "mobx";
 import './style.scss';
-import Modal from "../Modal";
 import ButtonIcon from "../ButtonIcon";
 
 const ChannelCard = props => {
